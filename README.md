@@ -13,3 +13,6 @@ https://github.com/opencv/opencv_contrib/blob/master/modules/text/samples/textde
 
 * компіляція коду: 
 * g++  textdetection.cpp -o textdetection -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc
+
+
+>dsfdsg
