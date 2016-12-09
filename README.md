@@ -35,3 +35,6 @@ https://github.com/opencv/opencv_contrib/blob/master/modules/text/samples/textde
 >make && sudo make install
 >
 >tessract will be installed to /usr/local.
+
+
+* g++  textdetection.cpp -o textdetection -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_text -lopencv_imgcodecs
