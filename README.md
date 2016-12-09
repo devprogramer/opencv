@@ -16,22 +16,22 @@ https://github.com/opencv/opencv_contrib/blob/master/modules/text/samples/textde
 
 
 >. download leptonica 1.70 tarball (helper image processing library, used by tesseract. Later versions might work too):
-http://www.leptonica.com/download.html
-unpack and build it:
-
-cd leptonica-1.70
-mkdir build && cd build && ../configure && make && sudo make install
-
-leptonica will be installed to /usr/local.
-
-2. download tesseract-3.03-rc1 tarball from https://drive.google.com/folderview?id=0B7l10Bj_LprhQnpSRkpGMGV2eE0&usp=sharing
-unpack and build it:
-
-# needed only to build tesseract
-export LIBLEPT_HEADERSDIR=/usr/local/include/
-cd tesseract-3.03
-mkdir build && cd build
-../configure --with-extra-includes=/usr/local --with-extra-libraries=/usr/local
-make && sudo make install
-
-tessract will be installed to /usr/local.
+>http://www.leptonica.com/download.html
+>unpack and build it:
+>
+>cd leptonica-1.70
+>mkdir build && cd build && ../configure && make && sudo make install
+>
+>leptonica will be installed to /usr/local.
+>
+>2. download tesseract-3.03-rc1 tarball from https://drive.google.com/folderview?id=0B7l10Bj_LprhQnpSRkpGMGV2eE0&usp=sharing
+>unpack and build it:
+>
+># needed only to build tesseract
+>export LIBLEPT_HEADERSDIR=/usr/local/include/
+>cd tesseract-3.03
+>mkdir build && cd build
+>../configure --with-extra-includes=/usr/local --with-extra-libraries=/usr/local
+>make && sudo make install
+>
+>tessract will be installed to /usr/local.
