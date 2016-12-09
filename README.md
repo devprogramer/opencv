@@ -38,3 +38,8 @@ https://github.com/opencv/opencv_contrib/blob/master/modules/text/samples/textde
 
 
 * g++  textdetection.cpp -o textdetection -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_text -lopencv_imgcodecs
+
+# Помилка
+* error while loading shared libraries: libopencv_core.so.3.1: cannot open shared object file: No such file or directory
+# Рішення
+* export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib; ./textdetection image1.jpg
