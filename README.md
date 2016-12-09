@@ -1,5 +1,5 @@
 # opencv
-Jeday's way
+Samurays way
 
 https://github.com/opencv/opencv_contrib/blob/master/modules/text/samples/textdetection.cpp
 
