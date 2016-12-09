@@ -8,5 +8,8 @@ https://github.com/opencv/opencv_contrib/blob/master/modules/text/samples/textde
 * apt-get install libqt4-dev  libqt4-xml libqt4-opengl
 * pkg-config --cflags --libs opencv -  вказаний шлях до бібліотек
 * g++ -ggdb `pkg-config --cflags --libs opencv` textdetection.cpp -o textdetection
-// cmake -DOPENCV_EXTRA_MODULES_PATH= ../opencv_contrib/modules -D WITH_QT=ON -D WITH_GTK=ON -D WITH_OPENGL=ON ../opencv; make -j5; make install
+* cmake -DOPENCV_EXTRA_MODULES_PATH= ../opencv_contrib/modules -D WITH_QT=ON -D WITH_GTK=ON -D WITH_OPENGL=ON ../opencv; make -j5; make install
 
+
+* компіляція коду: 
+* g++  textdetection.cpp -o textdetection -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc
